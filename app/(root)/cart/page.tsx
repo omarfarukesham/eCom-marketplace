@@ -25,7 +25,6 @@ const Cart = () => {
   };
 
   const handleCheckout = async () => {
-      alert('Click on procced checkout .. ')
     try {
       if (!user) {
         router.push("sign-in");
